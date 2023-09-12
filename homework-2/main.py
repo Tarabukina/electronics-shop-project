@@ -1,4 +1,4 @@
-from src.item import Item
+#from src.item import Item
 
 if __name__ == '__main__':
     item = Item('Телефон', 10000, 5)
@@ -6,6 +6,7 @@ if __name__ == '__main__':
     # длина наименования товара меньше 10 символов
     item.name = 'Смартфон'
     assert item.name == 'Смартфон'
+
 
     # длина наименования товара больше 10 символов
     item.name = 'СуперСмартфон'
